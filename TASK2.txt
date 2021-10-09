@@ -1,0 +1,112 @@
+Bitcoin is a decentralized digital currency, without a central bank or single administrator, 
+that can be sent from user to user on the peer-to-peer bitcoin network without the need for 
+intermediaries. Transactions are verified by network nodes through cryptography and recorded 
+in a public distributed ledger called a block chain. The cryptocurrency was invented in 2008 
+by an unknown person or group of people using the name Satoshi Nakamoto. The currency began 
+use in 2009 when its implementation was released as open-source software Bitcoins are created
+ as a reward for a process known as mining. They can be exchanged for other currencies, products,
+ and services, but the real-world value of the coins is extremely volatile.[13] Research produced 
+by the University of Cambridge estimated that in 2017, there were 2.9 to 5.8 million unique users 
+using a cryptocurrency wallet, most of them using bitcoin. Bitcoin has been criticized for its use
+ in illegal transactions, the large amount of electricity (and thus carbon footprint) used by mining,
+ price volatility, and thefts from exchanges. Some economists and commentators have characterized it 
+as a speculative bubble at various times. Bitcoin has also been used as an investment, although several 
+regulatory agencies have issued investor alerts about bitcoin. In September 2021, El Salvador officially
+ adopted Bitcoin as legal tender, becoming the first and only nation in the world to do so. The word 
+bitcoin was defined in a white paper published on 31 October 2008. It is a compound of the words 
+bit and coin. No uniform convention for bitcoin capitalization exists; some sources use Bitcoin,
+ capitalized, to refer to the technology and network and bitcoin, lowercase, for the unit of account. 
+The Wall Street Journal, The Chronicle of Higher Education, and the Oxford English Dictionary advocate
+ the use of lowercase bitcoin in all cases. In the block chain, bitcoins are registered to bitcoin 
+addresses. Creating a bitcoin address requires nothing more than picking a random valid private key 
+and computing the corresponding bitcoin address. This computation can be done in a split second. 
+But the reverse, computing the private key of a given bitcoin address, is practically unfeasible. 
+Users can tell others or make public a bitcoin address without compromising its corresponding private 
+key. Moreover, the number of valid private keys is so vast that it is extremely unlikely someone 
+will compute a key-pair that is already in use and has funds. The vast number of valid private keys 
+makes it unfeasible that brute force could be used to compromise a private key. To be able to spend 
+their bitcoins, the owner must know the corresponding private key and digitally sign the transaction. 
+The network verifies the signature using the public key; the private key is never revealed. If the 
+private key is lost, the bitcoin network will not recognize any other evidence of ownership; 
+the coins are then unusable, and effectively lost. For example, in 2013 one user claimed to 
+have lost 7,500 bitcoins, worth $7.5 million at the time, when he accidentally discarded a 
+hard drive containing his private key. About 20% of all bitcoins are believed to be lost 
+they would have had a market value of about $20 billion at July 2018 prices. To ensure the 
+security of bitcoins, the private key must be kept secret. ? If the private key is revealed to a
+ third party, e.g. through a data breach, the third party can use it to steal any associated 
+bitcoins. As of December 2017, around 980,000 bitcoins have been stolen from cryptocurrency 
+exchanges By adjusting this difficulty target, the amount of work needed to generate a block 
+can be changed. Every 2,016 blocks (approximately 14 days given roughly 10 minutes per block),
+ nodes deterministically adjust the difficulty target based on the recent rate of block generation,
+ with the aim of keeping the average time between new blocks at ten minutes. In this way the system 
+automatically adapts to the total amount of mining power on the network. ? As of September 2021, 
+it takes on average 79 sextillion (79 thousand billion billion) attempts to generate a block hash 
+smaller than the difficulty target. The proof-of-work system, alongside the chaining of blocks, 
+makes modifications of the blockchain extremely hard, as an attacker must modify all subsequent 
+blocks in order for the modifications of one block to be accepted. As new blocks are mined all 
+the time, the difficulty of modifying a block increases as time passes and the number of subsequent
+ blocks (also called confirmations of the given block) increases Computing power is often bundled 
+together by a Mining pool to reduce variance in miner income. Individual mining rigs often have 
+to wait for long periods to confirm a block of transactions and receive payment. In a pool, all 
+participating miners get paid every time a participating server solves a block. This payment 
+depends on the amount of work an individual miner contributed to help find that block. 
+The overwhelming majority of bitcoin transactions take place on a cryptocurrency exchange, 
+rather than being used in transactions with merchants. Delays processing payments through 
+the block chain of about ten minutes make bitcoin use very difficult in a retail setting.
+Prices are not usually quoted in units of bitcoin and many trades involve one, or sometimes 
+two, conversions into conventional currencies. Merchants that do accept bitcoin payments may 
+use payment service providers to perform the conversions. In 2017 and 2018 bitcoin's acceptance 
+among major online retailers included only three of the top 500 U.S. online merchants, down from 
+five in 2016. Reasons for this decline include high transaction fees due to bitcoin's scalability 
+issues and long transaction times. Bloomberg reported that the largest 17 crypto merchant-processing 
+services handled $69 million in June 2018, down from $411 million in September 2017. Bitcoin is 
+"not actually usable" for retail transactions because of high costs and the inability to process
+ charge backs, according to Nicholas Weaver, a researcher quoted by Bloomberg. High price volatility
+ and transaction fees make paying for small retail purchases with bitcoin impractical, according 
+to economist Kim Grauer. However, bitcoin continues to be used for large-item purchases on sites 
+such as Overstock.com, and for cross-border payments to freelancers and other vendors. Debugging 
+is a very important task in the software development process since having defects in a program 
+can have significant consequences for its users. Some languages are more prone to some kinds of
+ faults because their specification does not require compilers to perform as much checking as 
+other languages. Use of a static code analysis tool can help detect some possible problems. 
+Normally the first step in debugging is to attempt to reproduce the problem. This can be a 
+non-trivial task, for example as with parallel processes or some unusual software bugs. 
+Also, specific user environment and usage history can make it difficult to reproduce the problem. 
+After the bug is reproduced, the input of the program may need to be simplified to make it easier to debug.
+For example, when a bug in a compiler can make it crash when parsing some large source file, a 
+simplification of the test case that results in only few lines from the original source file 
+can be sufficient to reproduce the same crash. Trial-and-error/divide-and-conquer is needed: 
+the programmer will try to remove some parts of the original test case and check if the
+problem still exists. When debugging the problem in a GUI, the programmer can try to skip some user 
+interaction from the original problem description and check if remaining actions are sufficient 
+for bugs to appear. Scripting and break pointing is also part of this process. Debugging is often 
+done with IDEs. Standalone debuggers like GDB are also used, and these often provide less of a 
+visual environment, usually using a command line. Some text editors such as E macs allow GDB to be 
+invoked through them, to provide a visual environment The academic field and the engineering practice 
+of computer programming are both largely concerned with discovering and implementing the most efficient
+ algorithms for a given class of problems. For this purpose, algorithms are classified into orders using
+ so-called Big O notation, which expresses resource use, such as execution time or memory consumption, 
+in terms of the size of an input. Expert programmers are familiar with a variety of well-established algorithms
+ and their respective complexities and use this knowledge to choose algorithms that are best suited 
+to the circumstances. High-level languages made 
+the process of developing a program simpler and more understandable, and less bound to the underlying 
+hardware. The first compiler related tool, the A-0 System, was developed in 1952 by Grace Hopper, 
+who also coined the term compiler. FORTRAN, the first widely used high-level language to have a
+ functional implementation, came out in 1957, and many other languages were soon developed in particular,
+ COBOL aimed at commercial data processing, and Lisp for computer research. These compiled languages 
+allow the programmer to write programs in terms that are syntactically richer, and more capable of 
+abstracting the code, making it easy to target for varying machine instruction sets via compilation 
+declarations and heuristics. Compilers harnessed the power of computers to make programming easier 
+by allowing programmers to specify calculations by entering a formula using infix notation. Machine 
+code was the language of early programs, written in the instruction set of the particular machine, 
+often in binary notation.
+ Assembly languages were soon developed that let the programmer specify instruction in a text format, 
+(e.g., ADD X, TOTAL), with abbreviations for each operation code and meaningful names for specifying 
+addresses. However, because an assembly language is little more than a different notation for a machine 
+language, any two machines with different instruction sets also have different assembly languages.
+
+
+
+
+
+
