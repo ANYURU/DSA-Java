@@ -2,24 +2,26 @@ package task2;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
-import java.util.List;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.util.Hashtable;
-import java.util.Enumeration;
 
 public class task2 {
     public static void main(String[]args) throws IOException{
         Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
 
-        System.out.println("Enter the file path.");
+        // Enter the filename.
+        // The file should be placed in the same directory as the program.
+        System.out.println("Enter the filename.");
         String fileName = scanner2.nextLine();
         String filePath = "./" + fileName;
 
+        // File preprocessing; 
+        // 1. => Read the file contents into a single string.
+        // 2. => Split the single string into an array of characters while ommiting symbols.
         BufferedReader br = readFileToBuffer(filePath);
         String singleString = textToString(br);
         String [] words = singleString.split("\\W+");
@@ -54,19 +56,15 @@ public class task2 {
 
         scanner1.close();
         scanner2.close();
-        
-        // String fileName = "./story.txt";
-        
-
-
-        
     }
-
+    
+    // Reading the file contents into a buffer and returning the buffer.
     private static BufferedReader readFileToBuffer(String fileName) throws FileNotFoundException{
         BufferedReader buffer = new BufferedReader(new FileReader(fileName));
         return buffer;
     }
 
+    // Converting the buffer into a single string.
     private static String textToString(BufferedReader buffer) throws IOException {
         StringBuilder stringText = new StringBuilder();
         String line;
