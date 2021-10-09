@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.util.Hashtable;
 
-public class task2 {
+public class Task2 {
     public static void main(String[]args) throws IOException{
         Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
