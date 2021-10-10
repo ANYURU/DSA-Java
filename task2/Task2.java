@@ -42,13 +42,18 @@ public class Task2 {
             String input = scanner1.nextLine();
 
             if(input.equals("q")) {
+                if(hashtable.get(stringHash("q")) == null) {
+                    System.out.println("The letter 'q' exists in the file " + fileName + "\n");
+                } else {
+                    System.out.println("The letter 'q' is not found in " + fileName + "\n");
+                }
                 break;
             } else {
                 int searchedKey = stringHash(input);
-                if(hashtable.containsKey(searchedKey) == true) {
-                    System.out.println("The word " + input + " exists in the file " + fileName + "\n");
+                if(hashtable.get(searchedKey) != null) {
+                    System.out.println("The word '" + input + "' exists in the file: " + fileName + "\n");
                 } else {
-                    System.out.println("The word " + input + " is not found in " + fileName + "\n");
+                    System.out.println("The word '" + input + "' does not exist in the file: " + fileName + "\n");
                 }
 
             }
